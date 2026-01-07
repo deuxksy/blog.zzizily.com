@@ -1,5 +1,4 @@
 ---
-​---
 title: "Hello World: 15년 차 엔지니어 zzizily입니다"
 date: 2026-01-07T19:40:00+07:00
 draft: false  # 아까처럼 404가 뜨지 않게 false로 꼭 확인하세요!
@@ -7,7 +6,6 @@ tags: ["Intro", "Career"]
 categories: ["Life"]
 showToc: true
 ​---
----
 
 ## 👋 소개
 
@@ -18,7 +16,7 @@ showToc: true
 그동안 쌓아온 기술 역량을 블로그를 통해 하나씩 정리해 나갈 예정입니다. 
 
 * **Backend:** Java Spring Framework (10년 경험) *
-*  **DevOps:** AWS (ECS, EC2, Route53), Terraform, Ansible, Jenkins, Git (5년 경험) 
+* **DevOps:** AWS (ECS, EC2, Route53), Terraform, Ansible, Jenkins, Git (5년 경험) 
 * ***Environments:** macOS (Mac Mini M4), Ubuntu 24 LTS (Surface Pro 6), Fedora (NAS) 
 
 ## 🎯 블로그 운영 목표
