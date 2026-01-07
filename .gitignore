@@ -1,0 +1,33 @@
+# --- Hugo 특정 파일 ---
+# 빌드 결과물 (GitHub Actions에서 생성하므로 제외)
+public/
+# 리소스 캐시 및 빌드 락
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# --- OS 관련 임시 파일 ---
+# macOS (맥미니 M4용)
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows (혹시 모를 상황 대비)
+Thumbs.db
+desktop.ini
+
+# --- IDE 및 에디터 ---
+# VS Code
+.vscode/
+# IntelliJ / JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+# Typora 임시 파일 및 백업
+.typora/
+
+# --- 기타 ---
+# 로그 파일
+*.log
+# 환경 변수 (혹시 사용하게 될 경우)
+.env

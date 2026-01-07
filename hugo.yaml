@@ -1,0 +1,62 @@
+baseURL: "https://blog.zzizily.com/"
+languageCode: ko-KR
+title: "새로운 기술은 언제나 환영이야!"
+theme: "PaperMod"
+
+# 1. 빌드 시 검색 인덱스(JSON) 생성을 위한 설정
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "15년 차 SDE/DevOps 엔지니어의 기술 블로그"
+  author: "zzizily"
+
+  # 2. 홈 화면 프로필 (구직 및 경력 강조용)
+  homeInfoParams:
+    Title: "새로운 기술은 언제나 환영이야! 👋"
+    Content: >
+      Java Spring 10년, DevOps 5년 경력의 소프트웨어 엔지니어입니다.
+      호치민에서 새로운 기회를 찾으며 기술적인 인사이트를 기록합니다.
+
+  # 3. 소셜 링크 (GitHub, LinkedIn 등)
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/zzizily"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/YOUR_ID" # 실제 아이디로 수정하세요
+
+  # 4. 블로그 기능 최적화
+  ShowCodeCopyButtons: true   # 코드 블록 복사 버튼
+  ShowReadingTime: true       # 포스팅 읽기 예상 시간
+  displayFullContent: false   # 메인 페이지에서 요약만 보기
+  ShowPostNavLinks: true      # 포스트 하단에 이전/다음 글 링크
+
+  # 5. 검색(Fuse.js) 엔진 상세 설정
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# 6. 상단 메뉴 구성
+menu:
+  main:
+    - identifier: search
+      name: "Search"
+      url: "/search/"
+      weight: 10
+    - identifier: posts
+      name: "Posts"
+      url: "/posts/"
+      weight: 20
+    - identifier: tags
+      name: "Tags"
+      url: "/tags/"
+      weight: 30
