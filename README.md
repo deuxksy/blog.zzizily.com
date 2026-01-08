@@ -1,6 +1,8 @@
 # 새로운 기술은 언제나 환영이야! 👋 (blog.zzizily.com)
 
-15년 차 DevOps 엔지니어 **Crong** 의 기술 블로그입니다. Java 와 DevOps 경험, 그리고 새로운 기술적 인사이트를 기록합니다.
+15년 차 DevOps 엔지니어 **Crong** 의 기술 블로그입니다. 
+
+Java 와 DevOps 경험, 그리고 새로운 기술적 인사이트를 기록합니다.
 
 ## 🚀 Tech Stack
 
