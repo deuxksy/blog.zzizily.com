@@ -2,12 +2,11 @@
 title: "260108"
 date: 2026-01-08T10:18:15+07:00
 lastmod: 2026-01-08T10:18:15+07:00
-author: "zzizily"
-categories: ["AI", "검증", "Typora"]
+author: "Crong"
+categories: ["AI", "Hallucination", "Verifications", "Typora"]
 tags: ["Draft"]
 showToc: true
 TocOpen: true
-draft: true
 
 ---
 
