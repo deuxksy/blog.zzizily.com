@@ -13,14 +13,14 @@ showToc: true
 
 ## 🛠 주요 기술 스택 (Core Tech)
 
-그동안 쌓아온 기술 역량을 블로그를 통해 하나씩 정리해 나갈 예정입니다. 
+그동안 쌓아온 기술 역량을 블로그를 통해 하나씩 정리해 나갈 예정입니다.
 
 - **Backend:** Java Spring Framework (10년 경험)
-- **DevOps:** AWS (ECS, EC2, Route53), Terraform, Ansible, Jenkins, Git (5년 경험) 
-- **Environments:** macOS (Mac Mini M4), Ubuntu 24 LTS (Surface Pro 6), Fedora (NAS) 
+- **DevOps:** AWS (ECS, EC2, Route53), Terraform, Ansible, Jenkins, Git (5년 경험)
+- **Environments:** macOS (Mac Mini M4), Ubuntu 24 LTS (Surface Pro 6), Fedora (NAS)
 
 ## 🎯 블로그 운영 목표
 
-- 기술적인 문제 해결 과정 기록 
-- 호치민에서의 개발자 생활 공유 
-- 개인 프로젝트(알라딘 도서 구매자 분석 등) 진행 과정 아카이빙
+- 기술적인 문제 해결 과정 기록
+- 호치민에서의 개발자 생활 공유
+- 개인 프로젝트 진행 과정 아카이빙
