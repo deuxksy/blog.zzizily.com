@@ -31,3 +31,20 @@ desktop.ini
 *.log
 # 환경 변수 (혹시 사용하게 될 경우)
 .env
+.gemini/
+gha-creds-*.json
+
+# --- Local config / secrets ---
+# Local environment files
+.env.local
+.envrc
+# Generic local config patterns
+*.local
+# Secrets / credentials
+secrets.*
+credentials.json
+.netrc
+# Editor/runtime secret files
+*.secret
+*.key
+*.pem
