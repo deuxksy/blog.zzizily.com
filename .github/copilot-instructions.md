@@ -24,7 +24,7 @@
 
 5. 커밋 및 PR 규칙
 
-- 커밋 메시지: 가능한 한 Conventional Commits 형식 권장(`feat:`, `fix:`, `docs:`)
+- 커밋 메시지: 가능한 한 Conventional Commits 형식 권장(`feat:`, `fix:`, `docs:`) 메세지는 한글로 작성.
 - Assistant가 생성한 변경은 패치/디퓨프와 함께 제출되며, 사용자가 검토 후 커밋/PR 생성 권장
 
 6. 보안/비밀정보
