@@ -3,6 +3,10 @@ languageCode: ko-KR
 title: "새로운 기술은 언제나 환영이야!"
 theme: "PaperMod"
 
+# [추가] 표준 예약어 기반 URL 구조 설정
+permalinks:
+  posts: /posts/:year/:month/:day/:contentbasename/
+
 # 1. 빌드 시 검색 인덱스(JSON) 생성을 위한 설정
 outputs:
   home:
@@ -12,8 +16,8 @@ outputs:
 
 params:
   env: production
-  description: "15년 차 SDE/DevOps 엔지니어의 기술 블로그"
-  author: "zzizily"
+  description: "15년 DevOps 엔지니어의 기술 블로그"
+  author: "Crong"
 
   # 2. 홈 화면 프로필 (구직 및 경력 강조용)
   homeInfoParams:
@@ -22,18 +26,18 @@ params:
       Java Spring 10년, DevOps 5년 경력의 소프트웨어 엔지니어입니다.
       호치민에서 새로운 기회를 찾으며 기술적인 인사이트를 기록합니다.
 
-  # 3. 소셜 링크 (GitHub, LinkedIn 등)
+  # 3. 소셜 링크
   socialIcons:
     - name: "github"
-      url: "https://github.com/zzizily"
+      url: "https://github.com/deuxksy"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/YOUR_ID" # 실제 아이디로 수정하세요
+      url: "https://www.linkedin.com/in/deuxksy"
 
   # 4. 블로그 기능 최적화
-  ShowCodeCopyButtons: true   # 코드 블록 복사 버튼
-  ShowReadingTime: true       # 포스팅 읽기 예상 시간
-  displayFullContent: false   # 메인 페이지에서 요약만 보기
-  ShowPostNavLinks: true      # 포스트 하단에 이전/다음 글 링크
+  ShowCodeCopyButtons: true #코드 블록 우측에 복사 버튼 표시
+  ShowReadingTime: true     #게시물에 예상 읽는 시간 표시
+  displayFullContent: false #목록에서 본문 전체 노출 여부 (false: 요약)
+  ShowPostNavLinks: true    #게시물 하단에 이전/다음 링크 표시
 
   # 5. 검색(Fuse.js) 엔진 상세 설정
   fuseOpts:
