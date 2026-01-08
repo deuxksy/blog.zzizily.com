@@ -1,6 +1,6 @@
 # 새로운 기술은 언제나 환영이야! 👋 (blog.zzizily.com)
 
-15년 차 DevOps 엔지니어 **Crong** 의 기술 블로그입니다. 
+15년 차 DevOps 엔지니어 **Crong** 의 기술 블로그입니다.
 
 Java 와 DevOps 경험, 그리고 새로운 기술적 인사이트를 기록합니다.
 
@@ -16,21 +16,26 @@ Java 와 DevOps 경험, 그리고 새로운 기술적 인사이트를 기록합�
 이 블로그는 SCSS 빌드를 위해 Hugo **Extended** 버전이 필요합니다.
 
 ### 1. Hugo 설치 (macOS 기준)
+
 ```bash
 brew install hugo
 ```
 
 ### 2. 저장소 클론 및 서브모듈 초기화
+
 테마가 Git 서브모듈로 관리되므로 `--recursive` 옵션이 필요합니다.
+
 ```bash
 git clone --recursive https://github.com/zzizily/blog.zzizily.com.git
 cd blog.zzizily.com
 ```
 
 ### 3. 로컬 서버 실행
+
 ```bash
 hugo server -D
 ```
+
 - `-D`: 드래프트(`draft: true`) 상태인 글도 포함하여 렌더링합니다.
 - 서버 주소: `http://localhost:1313/`
 
@@ -57,6 +62,20 @@ hugo new posts/my-new-post.md
 - `content/static/`: 포스트에서 사용하는 이미지 등 정적 자산
 - `layouts/`: 테마 설정을 덮어쓰기 위한 커스텀 레이아웃
 - `hugo.yaml`: 사이트 전역 설정 및 메뉴 구성
+
+## 🔐 보안 및 훅 설치
+
+민감 정보(환경변수, API 키, 개인 키 등)는 리포지토리에 절대 커밋하지 마세요. 샘플 값은 `.env.example`에 보관하고 실제 값은 로컬 환경변수 또는 시크릿 매니저에 저장하세요. 자세한 내용은 `SECURITY.md`를 참고하세요.
+
+로컬에서 간단한 커밋 전 검사(pre-commit)를 설치하려면:
+
+```bash
+cp scripts/pre-commit-check.sh .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
+이 검사는 스테이지된 파일에서 흔한 시크릿 패턴을 탐지해 커밋을 차단합니다. 더 강력한 방법으로는 `pre-commit` + `detect-secrets` 또는 CI 기반 시크릿 스캔을 도입하세요.
+
 
 ---
 © 2026 ZZiZiLY. Powered by Hugo & PaperMod.
