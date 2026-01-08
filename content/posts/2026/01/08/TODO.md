@@ -18,13 +18,13 @@ TocOpen: true
 ### 오늘 할일
 
 - [ ] DJI Osmo Nano 호치민 일몰 타임랩스 찍기
-  - [ ] 시작시간 스캐줄링 17:30
-  - [ ] 해상도 4K 25fps
-  - [ ] 촬영시간 1시간
-  - [ ] 인터벌시간 2초
-  - [ ] ISO 100~800
-  - [ ] Exposure(EV) -0.7
-  - [ ] White Blance 5500k
+  - [x] 시작시간 스캐줄링 17:30
+  - [x] 해상도 4K 25fps
+  - [x] 촬영시간 1시간
+  - [x] 인터벌시간 2초
+  - [x] ISO 100~800
+  - [x] Exposure(EV) -0.7
+  - [x] White Blance 5500k
   - [ ] 영상체크
 - [ ] today-vn-new
   - [ ] Model 을 Gemini 에서 Geemma 3 로 변경
