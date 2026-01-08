@@ -26,6 +26,8 @@ TocOpen: true
   - [x] Exposure(EV) -0.7
   - [x] White Blance 5500k
   - [ ] 영상체크
+- [ ] env 개인설정
+  - [ ] AI 를 이용한 통합 정리
 - [ ] today-vn-new
   - [ ] Model 을 Gemini 에서 Geemma 3 로 변경
   - [ ] 타임랩스 영상과 합성
