@@ -1,3 +1,34 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Environment files (do NOT commit secrets)
+.env
+.env.*.local
+.env.local
+.secrets
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+
+# macOS
+.Spotlight-V100
 # --- Hugo 특정 파일 ---
 # 빌드 결과물 (GitHub Actions에서 생성하므로 제외)
 public/
