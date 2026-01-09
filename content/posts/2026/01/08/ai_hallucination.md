@@ -3,8 +3,8 @@ title: "260108"
 date: 2026-01-08T10:18:15+07:00
 lastmod: 2026-01-08T10:18:15+07:00
 author: "Crong"
-categories: ["AI", "Hallucination", "Verifications", "Typora"]
-tags: ["Draft"]
+categories: ["AI"]
+tags: ["Hallucination", "Verifications", "Typora"]
 showToc: true
 TocOpen: true
 
