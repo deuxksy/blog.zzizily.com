@@ -1,5 +1,5 @@
 ---
-title: "Local Llm_with_opencode"
+title: "MLX with OpenCode"
 date: 2026-01-11T19:46:31+07:00
 lastmod: 2026-01-11T19:46:31+07:00
 author: "Crong"
