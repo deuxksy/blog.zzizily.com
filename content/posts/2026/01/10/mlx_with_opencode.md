@@ -29,6 +29,29 @@ mlx_lm.server \
     --port 8080
 ```
 
+OpenCode 와 MLX 연동 api-key 값은 아무거나 dumy 값 으로 아무거나
+
+```json
+# ~/.config/opencode/config.json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "mlx": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "MLX (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:8080/v1"
+      },
+      "models": {
+        "mlx-community/Meta-Llama-3.1-8B-Instruct-8bit": {
+          "name": "MLX Llama"
+        }
+      }
+    }
+  }
+}
+```
+
 첫 Prompt 를 날려  테스트 하니깐 처음 명령어 `Hi` 날리때 10,000 토큰 넘개 날아감 와.... local 이라서 다행이다.
 아무튼 10k 토큰 처리 하는데만 56초 걸림 M4 Mac mini는 초당 약 200~250 토큰을 처리한다고함, 산술적으로 **10,601 / 200 ≈ 50초** 그래도 초당 190 정도 나오냉.
 두번째 날리까 빨라짐 물론 두번째는 15 토큰만 날림, 캐시된 10,600 토큰 재사용 + 신규 15 토큰 연산 (약 2~3초 소요).
