@@ -79,3 +79,7 @@ credentials.json
 *.secret
 *.key
 *.pem
+
+# --- AI Context Files (Personal Information) ---
+# AI-specific context files containing personal information
+.ai/CONTEXT.md

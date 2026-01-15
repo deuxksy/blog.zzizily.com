@@ -1,0 +1,66 @@
+# OS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Editors
+.idea/
+.vscode/
+
+# Environment files (do NOT commit secrets)
+.env
+.env.*.local
+.env.local
+.secrets
+
+# Keys and certificates
+*.pem
+*.key
+*.crt
+
+# macOS
+.Spotlight-V100
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Hugo specific files
+public/
+resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# IDE and editors
+.typora/
+*.iws
+*.iml
+*.ipr
+
+# Other
+*.log
+.gemini/
+gha-creds-*.json
+
+# Local config / secrets
+.envrc
+*.local
+secrets.*
+credentials.json
+.netrc
+*.secret
+
+# Git submodules
+.gitmodules
+themes/
