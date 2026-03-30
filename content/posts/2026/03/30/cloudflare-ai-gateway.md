@@ -7,7 +7,6 @@ categories: ["Tech"]
 tags: ["Cloudflare", "AI", "Gateway", "API"]
 showToc: true
 TocOpen: true
-draft: true
 ---
 
 ## Cloudflare AI Gateway란?
