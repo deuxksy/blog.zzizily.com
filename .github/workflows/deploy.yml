@@ -33,7 +33,7 @@ jobs:
           extended: true        # PaperMod의 SCSS 빌드를 위해 extended 버전 필수
 
       - name: Build with Hugo
-        run: hugo --minify --baseURL "https://blog.zzizily.com/"
+        run: hugo --minify --baseURL "https://zzizily.com/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
